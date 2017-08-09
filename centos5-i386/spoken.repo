@@ -1,0 +1,26 @@
+[spoken-base]
+name=Base repository for CentOS $releasever - $basearch
+baseurl=http://10.223.118.99/centos/$releasever/os/$basearch/
+enabled=1
+gpgcheck=0
+[spoken-updates]
+name=Spoken repository for CentOS-$releasever - updates
+baseurl=http://10.223.118.99/centos/$releasever/updates/$basearch/
+enabled=1
+gpgcheck=0
+[spoken-addons]
+name=Spoken repository for CentOS-$releasever - add-ons
+baseurl=http://10.223.118.99/centos/$releasever/add-ons/$basearch/
+enabled=0
+gpgcheck=0
+[spoken-mysql-5.6]
+name=Spoken repository for mysql-5.6
+baseurl=http://10.223.118.99/centos/mysql-5.6/$basearch/
+enabled=0
+gpgcheck=0
+[spoken-mysql-5.7]
+name=Spoken repository for mysql-5.7
+baseurl=http://10.223.118.99/centos/mysql-5.7/$basearch/
+enabled=0
+gpgcheck=0
+
